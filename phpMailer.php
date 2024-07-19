@@ -47,12 +47,12 @@ if(mysqli_num_rows($res) > 0) {
 	$mail->Subject = 
 		"Mailer Multiple address in php"; 
 		
-	$mail->Body = "Hii </p>Myself </h1>Rohit 
-	sahu</h1> your Article has been acknowledge 
+	$mail->Body = "Hii </p>Myself </h1>Ragini 
+ 	Gupta</h1> your Article has been acknowledge 
 	by me and shortly this article will be 
 	contributing in</p> <h1>Geeks for Geeks !</h1>"; 
 	
-	$mail->AltBody = "Welcome to Geeks for geeks"; 
+	$mail->AltBody = "Welcome to BCREC"; 
 	
 	if($mail->send()) 
 	{ 
